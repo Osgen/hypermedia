@@ -3,4 +3,4 @@
 ##INSTALATION
 ## npm install express
 ## npm install mongoose
-## npm install nodemon
+## npm install -g nodemon
