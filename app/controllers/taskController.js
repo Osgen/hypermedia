@@ -1,9 +1,10 @@
-let express = require('express');
-let router = express.Router();
+const express = require('express');
+const router = express.Router();
+const Task = require('../models/task');
 
 router.route('/')
     .get((req,res)=>{
-        res.send("task root get");
+        res.json({"msg":"Task root get"});
     })
     .post((req,res)=>{
     res.send("task root post");
