@@ -1,6 +1,6 @@
-let express = require('express');
-let app = express();
-let task = require('./controllers/taskController');//gets all the routes for 'task'
+const express = require('express');
+const app = express();
+const task = require('./controllers/taskController');//gets all the routes for 'task'
 
 const PORT = process.env.PORT || 3000;//sets PORT
 
