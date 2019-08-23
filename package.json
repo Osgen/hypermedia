@@ -2,8 +2,13 @@
   "name": "hypermedia",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/appController",
+  "engines":{
+    "node":"10.16.0",
+    "npm":"6.9.0"
+  },
   "scripts": {
+    "start":"node app/appController",
     "dev": "nodemon app/appController"
   },
   "repository": {
