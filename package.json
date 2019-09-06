@@ -23,7 +23,10 @@
   "homepage": "https://github.com/Osgen/hypermedia#readme",
   "dependencies": {
     "express": "^4.17.1",
+<<<<<<< HEAD
     "nodemon": "^1.19.2",
+=======
+>>>>>>> 065b92890247c805add07ab991769e872834121e
     "passport": "^0.4.0",
     "passport-google-oauth20": "^2.0.0"
   }
