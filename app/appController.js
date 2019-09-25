@@ -8,8 +8,6 @@ const passport = require('passport');
 const port = process.env.PORT || 3000;
 const keys = require('./config/keys');
 
-const app = express();
-
 app.use(
     cookieSession({
         maxAge:30*24*60*60*1000,
