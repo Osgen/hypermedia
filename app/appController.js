@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const keys = require('./config/keys');
 
 app.use(
